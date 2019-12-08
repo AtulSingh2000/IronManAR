@@ -1,0 +1,28 @@
+
+
+
+<html>
+
+<head>
+  <title>Hello</title>
+  <meta name="description" content="Hello, WebAR! - A-Frame">
+  <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"> </script>
+
+</head>
+
+<body style="margin : 0px; overflow: hidden;">
+  <div>
+  <a-scene embedded arjs="sourceType: webcam;">
+    <a-marker preset="hiro">
+      
+      <a-entity >
+        <a-entity scale="0.01 0.01 0.01" position="0 0.5 0" rotation="-90 0 0" class="Obj_mal" obj-model="obj: url(https://atulsingh2000.github.io/3DTry//IronMan.obj); 
+        mtl: url(https://atulsingh2000.github.io/3DTry//IronMan.mtl)">
+        </a-entity>
+      </a-entity>
+  </a-scene>
+
+</body>
+
+</html>
